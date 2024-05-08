@@ -1,9 +1,8 @@
 import Card from "./Card";
 
-export default function CardList() {
+const CardList = () => {
   return (
-    <ul className="bg-red-100 mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 justify-items-center">
-      <Card />
+    <ul className="bg-red-100 mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 justify-items-center gap-4">
       <Card />
       <Card />
       <Card />
@@ -16,4 +15,6 @@ export default function CardList() {
       <Card />
     </ul>
   );
-}
+};
+
+export default CardList;
